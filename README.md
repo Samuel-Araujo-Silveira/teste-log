@@ -1,6 +1,6 @@
-# teste-log — POC de logs estruturados para o PDV
+# teste-log — POC de logs estruturados 
 
-Mini API em Laravel 8 (mesmas versões do PDV) criada para validar, na prática, a arquitetura de logs proposta no estudo:
+Mini API em Laravel 8 criada para validar, na prática, a arquitetura de logs proposta no estudo:
 
 - **Correlation ID** (`X-Correlation-ID`) gerado ou reaproveitado por requisição, propagado para todos os logs e devolvido no header da resposta.
 - **Log de diagnóstico estruturado** em JSON, uma linha por evento, gravado em arquivo — nunca no banco.
